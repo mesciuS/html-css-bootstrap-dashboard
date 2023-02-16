@@ -20,8 +20,8 @@
     width: 150px;
     height: 100%;
 
-    /* debug */
-    background-color: bisque;
+    background-image: url(/img/sidebar-bg.png);
+    background-color: #051e34;
 }
 
 .my-container-inner {
