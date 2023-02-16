@@ -68,6 +68,10 @@
     padding-right: 10px;
 }
 
+.mobile-logo {
+    width: 50px;
+}
+
 .offcanvas{
     width: 45% !important;
 }
@@ -87,8 +91,33 @@
     background-color: red;
 }
 
-
-
 td:first-of-type {
     width: 70%;
+}
+
+
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+
+    .my-side-bar {
+        width: 70px;
+        height: 100%;
+    }
+
+    .my-container-inner {
+        width: calc(100% - 70px);
+        height: 100%;
+    }
+
+    .navigation-text {
+        display: none;
+    }
+
+    .my-navigation-top-inner,.my-navigation-bottom-inner {
+        justify-content: center;
+    }
+
+
 }
