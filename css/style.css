@@ -119,5 +119,7 @@ td:first-of-type {
         justify-content: center;
     }
 
-
+    .offcanvas {
+        width: 100% !important;
+    }
 }

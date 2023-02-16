@@ -18,8 +18,8 @@
     <main class="my-main-container">
 
         <nav class="my-main-nav d-flex justify-content-between align-items-center">
-          <div class="px-2 d-md-none d-sm-none d-lg-block"><img src="img/logo.svg" alt=""></div>
-          <div class="px-2 d-lg-none d-md-block"><img src="img/mobile-logo.png" alt="" class="mobile-logo"></div>
+          <div class="px-2 d-none d-md-block"><img src="img/logo.svg" alt=""></div>
+          <div class="px-2 d-block d-md-none"><img src="img/mobile-logo.png" alt="" class="mobile-logo"></div>
           <div class="container-fluid">
             <form class="d-flex input-group" role="search">
               <div class="input-group-text bg-body-secondary"><i class="fa-solid fa-magnifying-glass"></i></div>
@@ -28,16 +28,16 @@
           </div>
         
           <div class="d-flex px-2">
-            <div>
+            <div class="d-none d-md-flex">
               <i class="fa-solid fa-bars"></i>
             </div>
-            <div class="text-secondary px-3">
+            <div class="text-secondary px-3 d-none d-md-flex">
               <i class="fa-solid fa-circle-question"></i>
             </div>
-            <div class="pe-3">
+            <div class="pe-3 d-none d-md-flex">
               <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
-            <div class="text-warning">
+            <div class="text-warning ">
               <i class="fa-solid fa-bell"></i>
             </div>
           </div>
