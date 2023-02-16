@@ -37,7 +37,7 @@
             <div class="pe-3 d-none d-md-flex">
               <i class="fa-solid fa-ellipsis-vertical"></i>
             </div>
-            <div class="text-warning ">
+            <div class="text-warning d-md-flex">
               <i class="fa-solid fa-bell"></i>
             </div>
           </div>
@@ -48,7 +48,7 @@
             <div class="my-side-bar d-flex flex-column justify-content-between text-white p-3">
 
                 <div class="my-navigation-top">
-                  <div class="my-navigation-top-inner d-flex align-content-center">
+                  <div class="my-navigation-top-inner d-flex align-content-center pb-3">
                     <div class="navigation-icon">
                       <i class="fa-solid fa-house"></i>
                     </div>
@@ -56,7 +56,7 @@
                       Home
                     </div>
                   </div>
-                  <div class="my-navigation-top-inner d-flex align-content-center">
+                  <div class="my-navigation-top-inner d-flex align-content-center pb-3">
                     <div class="navigation-icon">
                       <i class="fa-sharp fa-solid fa-chart-simple fa-lg"></i>
                     </div>
@@ -64,7 +64,7 @@
                       Stat
                     </div>
                   </div>
-                  <div class="my-navigation-top-inner d-flex align-content-center">
+                  <div class="my-navigation-top-inner d-flex align-content-center pb-3">
                     <div class="navigation-icon">
                       <i class="fa-solid fa-signal"></i>
                     </div>
@@ -157,8 +157,8 @@
                   </div>
 
                 </div>
-
-                <div class="my-container-inner-wrapper d-flex">
+                  <!-- inizio cards -->
+                <div class="my-container-inner-wrapper d-flex flex-wrap">
 
                     <div class="my-container-inner-left d-flex flex-column px-3 py-4">
                         
@@ -170,12 +170,12 @@
 
                             <div class="table-container p-3">
 
-                                <table class="table">
+                                <table class="table table-hover">
                                     <thead>
                                       <tr>
-                                        <th scope="col">Nome</th>
-                                        <th scope="col" class="text-center">Data inizio</th>
-                                        <th scope="col" class="text-center">ROI</th>
+                                        <th scope="col">Nome</th> 
+                                        <th scope="col" class="text-center d-none d-sm-table-cell">Data inizio</th>
+                                        <th scope="col" class="text-center d-none d-sm-table-cell">ROI</th>
                                         <th scope="col" class="text-center">Stato</th>
                                         <th scope="col" class="text-center">Azioni</th>
                                       </tr>
@@ -183,8 +183,8 @@
                                     <tbody class="table-group-divider">
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-green text-white">Done</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
@@ -197,8 +197,8 @@
                                       </tr>
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-green text-white">Done</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
@@ -211,8 +211,8 @@
                                       </tr>
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-yellow text-white">Process</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
@@ -225,8 +225,8 @@
                                       </tr>
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-green text-white">Done</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
@@ -239,8 +239,8 @@
                                       </tr>
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-red text-white">Failed</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
@@ -253,8 +253,8 @@
                                       </tr>
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-green text-white">Done</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
@@ -267,8 +267,8 @@
                                       </tr>
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-red text-white">Failed</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
@@ -281,8 +281,8 @@
                                       </tr>
                                       <tr>
                                         <td><img src="img/class-avatar.jpg" alt="tablelogo" class="table-img">Classe 75</td>
-                                        <td class="text-center">15 Feb 2021</td>
-                                        <td class="text-center">20%</td>
+                                        <td class="text-center d-none d-sm-table-cell">15 Feb 2021</td>
+                                        <td class="text-center d-none d-sm-table-cell">20%</td>
                                         <td class="text-center"><div class="table-green text-white">Done</div></td>
                                         <td class="text-center d-flex justify-content-around">
                                           <div class="table-wrapper border border-dark-subtle rounded-1 py-1 px-2">
