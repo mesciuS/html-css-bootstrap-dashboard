@@ -50,7 +50,6 @@
 .my-container-inner-right  {
     width: 35%;
     height: 100%;
-    background-color: chocolate;
 }
 
 .color-one {
@@ -59,4 +58,8 @@
 
 .color-two {
     background-color: #ffffff;
+}
+
+.my-img {
+    width: 100%;
 }
