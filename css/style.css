@@ -95,7 +95,9 @@ td:first-of-type {
     width: 70%;
 }
 
-
+.f-size {
+    font-size: .7em;
+}
 
 /* media query */
 
