@@ -71,3 +71,24 @@
 .offcanvas{
     width: 45% !important;
 }
+
+.table-green {
+    border-radius: 10px;
+    background-color: green;
+}
+
+.table-yellow {
+    border-radius: 10px;
+    background-color: #ffc107;
+}
+
+.table-red {
+    border-radius: 10px;
+    background-color: red;
+}
+
+
+
+td:first-of-type {
+    width: 70%;
+}
